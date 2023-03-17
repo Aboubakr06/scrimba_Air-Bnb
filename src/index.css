@@ -33,7 +33,7 @@ section {
 
 .group-images {
   margin-bottom: 32px;
-  max-width: 395px;
+  width: 100%;
   align-self: center;
 }
 
@@ -49,4 +49,10 @@ section {
   font-weight: var(--fw-small);
   line-height: 17.6px;
   max-width: 320px;
+}
+
+@media (min-width:821px) {
+  .group-images {   
+    max-width: 400px;    
+  }  
 }
