@@ -1,10 +1,10 @@
-import star from '../public/assets/Star 1.png'
+import star from '../src/assets/Star 1.png'
 
 export default function Cards(card) {
     return (
       <>
       <div className='card'>
-      <img className='card-image' src={`./public/assets/${card.img}`} alt="katie zaferes" />
+      <img className='card-image' src={`../src/assets/${card.img}`} alt="katie zaferes" />
       <div className='card-stats'>
         <img className='stats-star' src={star} alt="" />
         <span>{card.rating}</span>
