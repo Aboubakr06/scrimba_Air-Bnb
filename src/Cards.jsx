@@ -4,7 +4,7 @@ export default function Cards(card) {
     return (
       <>
       <div className='card'>
-      <img className='card-image' src={`./assets/${card.img}`} alt="katie zaferes" />
+      <img className='card-image' src={`./dist/assets/${card.img}`} alt="katie zaferes" />
       <div className='card-stats'>
         <img className='stats-star' src={star} alt="" />
         <span>{card.rating}</span>
