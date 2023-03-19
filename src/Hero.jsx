@@ -1,4 +1,4 @@
-import groupImage from '../src/assets/photo-grid.png'
+import groupImage from '../public/assets/photo-grid.png'
 
 export default function Hero() {
     return (
