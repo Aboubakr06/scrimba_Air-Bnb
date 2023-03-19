@@ -12,8 +12,9 @@ export default function App() {
     review={item.stats.reviewCount} 
     location={item.location} 
     title={item.title} 
-    price={item.price}/>
-    
+    price={item.price}
+    openSpots={item.openSpots}
+    />    
   })    
   return (
     <>
